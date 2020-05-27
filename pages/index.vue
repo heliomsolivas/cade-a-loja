@@ -5,14 +5,24 @@
       <div class="grid__item" v-for="(store, i) in stores" :key="i">
         <div class="badge">{{ store.category }}</div>
         <div class="name">{{ store.name }}</div>
-        <div class="details">{{ store.address }}</div>
+        <div class="details">
+          {{ store.address }} - {{ store.city }}/{{ store.state }}
+        </div>
+        <div
+          class="badge__entrega"
+          style="background-color:#f6f5f5;padding: 8px;border-radius:4px;display:inline-block;"
+        >
+          Entrega?
+          <span v-if="store.delivery" style="color:green;">Sim! :)</span>
+          <span v-else>Não :(</span>
+        </div>
 
         <div class="social">
-          <img width="32" src="@/assets/icons/instagram.png" />
+          <img width="24" src="@/assets/icons/instagram.png" />
           <a :href="`https://api.whatsapp.com/send?phone=${store.phone}`"
-            ><img width="32" src="@/assets/icons/whatsapp.png"
+            ><img width="24" src="@/assets/icons/whatsapp.png"
           /></a>
-          <img width="32" src="@/assets/icons/facebook.png" />
+          <img width="24" src="@/assets/icons/facebook.png" />
         </div>
       </div>
     </div>
@@ -41,7 +51,18 @@ export default {
 */
 h1 {
   margin-bottom: 32px;
-  font-size: 32px;
+  color: #222222;
+  display: inline-block;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+  width: 100%;
+  text-align: left;
+  font-size: 40px;
+  margin-top: 32px;
+}
+.badge__entrega {
+  color: #595856;
+  font-size: 14px;
 }
 .delivery {
   display: flex;
@@ -54,7 +75,7 @@ h1 {
   display: grid;
   grid-gap: 8px;
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 120px;
+  max-width: 100px;
 }
 .name {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
@@ -63,6 +84,7 @@ h1 {
   color: rgb(34, 34, 34) !important;
   font-size: 16px !important;
   line-height: 20px !important;
+  margin-bottom: 2px;
 }
 .badge {
   background-color: rgb(255, 255, 255) !important;
@@ -87,20 +109,21 @@ h1 {
   margin-bottom: 8px;
 }
 .details {
-  color: rgb(113, 113, 113) !important;
-  line-height: 20px !important;
-  max-height: 20px !important;
-  text-overflow: ellipsis !important;
-  display: -webkit-box !important;
-  -webkit-line-clamp: 1 !important;
-  -webkit-box-orient: vertical !important;
-  animation-duration: 0.3s !important;
-  animation-name: keyframe_18jn58a !important;
-  animation-timing-function: ease-in-out !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-  flex: 1 1 0% !important;
-  overflow: hidden !important;
+  color: rgb(113, 113, 113);
+  line-height: 20px;
+  max-height: 20px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  animation-duration: 0.3s;
+  animation-name: keyframe_18jn58a;
+  animation-timing-function: ease-in-out;
+  opacity: 1;
+  visibility: visible;
+  flex: 1 1 0%;
+  overflow: hidden;
+  margin-bottom: 4px;
 }
 .grid {
   width: 100%;
@@ -149,5 +172,11 @@ h1 {
 
 .links {
   padding-top: 15px;
+}
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
 }
 </style>

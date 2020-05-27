@@ -2,6 +2,8 @@
 
 > Projeto para divulgar Lojas do comercio, com informações de delivery
 
+> É um "catalogo" rápido de pequenos/médios negócios
+
 > Projeto feito com Nuxt com os dados guardados em um JSON, utilizando o novo módulo [@nuxtjs/content](https://content.nuxtjs.org/)
 
 > Se quiser ajudar faça seu PR com algo da lista TODO abaixo.
