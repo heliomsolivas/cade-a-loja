@@ -1,6 +1,100 @@
 {
   "list": [
     {
+      "name": "Rob's Mania",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Itagaçaba",
+      "category": "Hamburgueria",
+      "delivery": true,
+      "phone": null,
+      "thumb": null,
+      "instagram": null,
+      "facebook": null,
+      "ifood": true,
+      "aiqfome": true
+    },
+    {
+      "name": "Fashion Sweet",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Moda",
+      "delivery": false,
+      "phone": null,
+      "thumb": null,
+      "instagram": "fashion.sweet1",
+      "facebook": null,
+      "ifood": false,
+      "aiqfome": false
+    },
+    {
+      "name": "Delicias Caseiras",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Pães",
+      "delivery": false,
+      "phone": "5512996633540",
+      "thumb": null,
+      "instagram": "caseiras.delicia96",
+      "facebook": null,
+      "ifood": false,
+      "aiqfome": false
+    },
+    {
+      "name": "Mundo M",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Sex Shop",
+      "delivery": true,
+      "phone": "5512988566842",
+      "thumb": null,
+      "instagram": "mundo_m.miss",
+      "facebook": null,
+      "ifood": false,
+      "aiqfome": false
+    },
+    {
+      "name": "Burguerlândia",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Vila Suely",
+      "category": "Hamburgueria",
+      "delivery": true,
+      "phone": null,
+      "thumb": null,
+      "instagram": null,
+      "facebook": null,
+      "ifood": true,
+      "aiqfome": true
+    },
+    {
+      "name": "Parmegiana da Clara",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Vila Washington Beleza",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": null,
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
+    },
+    {
+      "name": "Kioske Big Lanche",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Centro",
+      "category": "Lanches",
+      "delivery": true,
+      "phone": null,
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
+    },
+    {
       "name": "Mixaria Pastelaria",
       "city": "Cruzeiro",
       "state": "SP",
@@ -10,7 +104,8 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": null
+      "facebook": null,
+      "ifood": true
     },
     {
       "name": "Na Brasa's Hambúrgueria",
@@ -22,7 +117,8 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": null
+      "facebook": null,
+      "ifood": true
     },
     {
       "name": "Parrilha's Burguer",
@@ -31,9 +127,10 @@
       "address": "Jardim América",
       "category": "Hamburgueria",
       "delivery": true,
-      "phone": null,
+      "phone": "5512992552758",
       "thumb": null,
-      "instagram": null,
+      "instagram": "parrilha.s_burguer",
+      "aiqfome": true,
       "facebook": null
     },
     {
@@ -58,7 +155,9 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": null
+      "facebook": null,
+      "ifood": true,
+      "aiqfome": true
     },
     {
       "name": "Que Delicia Bolo de pote",
@@ -69,7 +168,7 @@
       "delivery": true,
       "phone": "5512982536712",
       "thumb": null,
-      "instagram": "https://www.instagram.com/quedelicia_bolo/",
+      "instagram": "quedelicia_bolo",
       "facebook": null
     },
     {
@@ -93,7 +192,7 @@
       "delivery": true,
       "phone": "5512991818121",
       "thumb": null,
-      "instagram": "https://www.instagram.com/cris_fashion_/",
+      "instagram": "cris_fashion_/",
       "facebook": null
     },
     {
@@ -118,7 +217,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "Flávia Bitteti Açai Delivery",
@@ -130,7 +229,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "Sol e Neve Sorveteria",
@@ -142,7 +241,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "Sorveteria Kuca Fresca",
@@ -154,7 +253,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "Pizzaria Prediletta",
@@ -166,7 +265,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "Pizzaria Ferrara",
@@ -178,7 +277,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "San Thomé Pizzaria",
@@ -190,7 +289,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "Pizzaria aVentura",
@@ -202,7 +301,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "Martinni Pizzaria",
@@ -214,7 +313,7 @@
       "phone": null,
       "thumb": null,
       "instagram": null,
-      "facebook": "lalala"
+      "facebook": null
     },
     {
       "name": "Dona Lola",
@@ -224,9 +323,9 @@
       "category": "Doces",
       "delivery": true,
       "phone": null,
-      "thumb": "lalala",
-      "instagram": "https://www.instagram.com/donalola2019/",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": "donalola2019/",
+      "facebook": null
     },
     {
       "name": "Dona Girafa",
@@ -236,9 +335,9 @@
       "category": "Moda",
       "delivery": true,
       "phone": "5512982601023",
-      "thumb": "lalala",
-      "instagram": "https://www.instagram.com/donagirafamodas/",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": "donagirafamodas/",
+      "facebook": null
     },
     {
       "name": "Maricota Cake",
@@ -248,21 +347,22 @@
       "category": "Restaurantes",
       "delivery": false,
       "phone": "5512988491853",
-      "thumb": "lalala",
-      "instagram": "https://www.instagram.com/cakemaricota/",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": "cakemaricota/",
+      "facebook": null
     },
     {
       "name": "Império Hamburgueria",
       "city": "Cruzeiro",
       "state": "SP",
-      "address": "Jardim Paraíso",
-      "category": "Restaurantes",
+      "address": "Jardim Primavera",
+      "category": "Hamburgueria",
       "delivery": true,
       "phone": null,
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null,
+      "aiqfome": true
     },
     {
       "name": "Haru",
@@ -272,9 +372,9 @@
       "category": "Restaurantes",
       "delivery": false,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
     },
     {
       "name": "Bem Bolado Lanches",
@@ -284,9 +384,9 @@
       "category": "Restaurantes",
       "delivery": true,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
     },
     {
       "name": "Caldinho Paraiso Delivery",
@@ -296,9 +396,9 @@
       "category": "Restaurantes",
       "delivery": true,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
     },
     {
       "name": "Anjinho Pizzaria",
@@ -308,9 +408,9 @@
       "category": "Pizzaria",
       "delivery": true,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
     },
     {
       "name": "Pam Doces",
@@ -320,9 +420,9 @@
       "category": "Doces",
       "delivery": true,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
     },
     {
       "name": "Caldinho Paraiso Delivery",
@@ -332,9 +432,9 @@
       "category": "Restaurantes",
       "delivery": true,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
     },
     {
       "name": "Anexo22",
@@ -344,9 +444,9 @@
       "category": "Moda",
       "delivery": true,
       "phone": "",
-      "thumb": "lalala",
-      "instagram": "@anexo22",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": "anexo22",
+      "facebook": null
     },
     {
       "name": "Caldinho Paraiso Delivery",
@@ -356,9 +456,9 @@
       "category": "Restaurantes",
       "delivery": true,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
     },
     {
       "name": "Hops Milk Shake",
@@ -368,9 +468,9 @@
       "category": "Restaurantes",
       "delivery": true,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "lalal",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": null,
+      "facebook": null
     },
     {
       "name": "Parmegiana do Chineis",
@@ -380,9 +480,9 @@
       "category": "Restaurantes",
       "delivery": true,
       "phone": "99199-4276",
-      "thumb": "lalala",
-      "instagram": "@parmeduchineis",
-      "facebook": "lalala"
+      "thumb": null,
+      "instagram": "parmeduchineis",
+      "facebook": null
     }
   ]
 }

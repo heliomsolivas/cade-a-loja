@@ -1,28 +1,72 @@
 <template>
   <div class="container">
-    <h1>Lista de Lojas</h1>
-    <div class="grid">
-      <div class="grid__item" v-for="(store, i) in stores" :key="i">
-        <div class="badge">{{ store.category }}</div>
-        <div class="name">{{ store.name }}</div>
-        <div class="details">
-          {{ store.address }} - {{ store.city }}/{{ store.state }}
-        </div>
-        <div
-          class="badge__entrega"
-          style="background-color:#f6f5f5;padding: 8px;border-radius:4px;display:inline-block;"
-        >
-          Entrega?
-          <span v-if="store.delivery" style="color:green;">Sim! :)</span>
-          <span v-else>Não :(</span>
+    <!-- <input
+      type="text"
+      v-model="q"
+      @input="$fetch"
+      style="border:1px solid red;"
+    /> -->
+    <div class="grid w-full lg:w-3/4 py-4 lg:pt-8 lg:pb-4">
+      <div
+        class="grid__item relative shadow-lg"
+        v-for="(store, i) in stores"
+        :key="i"
+      >
+        <div class="grid__details mb-4">
+          <div
+            class="inline-block text-white p-2 mb-1 text-sm font-semibold rounded-sm"
+            :class="getCategoryColor(store.category)"
+          >
+            {{ store.category }}
+          </div>
+          <div class="text-xl leading-tight mb-1">{{ store.name }}</div>
+          <div class="text-sm leading-tight text-gray-600 mb-2">
+            <span v-if="store.address">{{ store.address }} -</span>
+            {{ store.city }}/{{ store.state }}
+          </div>
+          <div
+            class="bg-gray-200 text-sm font-semibold text-gray-700"
+            style="padding: 8px;border-radius:4px;display:inline-block;"
+          >
+            Entrega?
+            <span v-if="store.delivery" style="color:green;">Sim! :)</span>
+            <span v-else>Não :(</span>
+          </div>
         </div>
 
-        <div class="social">
-          <img width="24" src="@/assets/icons/instagram.png" />
-          <a :href="`https://api.whatsapp.com/send?phone=${store.phone}`"
+        <div class="social flex flex-1">
+          <a
+            v-if="store.instagram"
+            target="_blank"
+            :href="`https://instagram.com/${store.instagram}`"
+          >
+            <img width="24" class="mr-2" src="@/assets/icons/instagram.png" />
+          </a>
+          <a
+            v-if="store.phone"
+            target="_blank"
+            class="mr-2"
+            :href="`https://api.whatsapp.com/send?phone=${store.phone}`"
             ><img width="24" src="@/assets/icons/whatsapp.png"
           /></a>
-          <img width="24" src="@/assets/icons/facebook.png" />
+          <img
+            v-if="store.facebook"
+            class="mr-2"
+            width="24"
+            src="@/assets/icons/facebook.png"
+          />
+          <img
+            v-if="store.ifood"
+            width="24"
+            class="mr-2"
+            src="@/assets/icons/ifood.png"
+          />
+          <img
+            v-if="store.aiqfome"
+            width="24"
+            class="mr-2"
+            src="@/assets/icons/aiqfome.png"
+          />
         </div>
       </div>
     </div>
@@ -33,11 +77,27 @@
 export default {
   data() {
     return {
-      stores: []
+      stores: [],
+      q: ''
+    }
+  },
+  methods: {
+    getCategoryColor(category) {
+      if (category === 'Açai') {
+        return 'bg-purple-700'
+      } else if (category === 'Pastelaria') {
+        return 'bg-orange-700'
+      } else if (category === 'Restaurantes') {
+        return 'bg-red-700'
+      } else {
+        return 'bg-gray-700'
+      }
     }
   },
   async fetch() {
-    const { list } = await this.$content('stores').fetch()
+    const { list } = await this.$content('stores')
+      .search(this.q)
+      .fetch()
     this.stores = list
   }
 }
@@ -60,10 +120,6 @@ h1 {
   font-size: 40px;
   margin-top: 32px;
 }
-.badge__entrega {
-  color: #595856;
-  font-size: 14px;
-}
 .delivery {
   display: flex;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
@@ -72,10 +128,8 @@ h1 {
 }
 .social {
   margin-top: 8px;
-  display: grid;
-  grid-gap: 8px;
-  grid-template-columns: 1fr 1fr 1fr;
   max-width: 100px;
+  bottom: 16px;
 }
 .name {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
@@ -137,19 +191,12 @@ h1 {
 .grid__item {
   background-color: #ffffff;
   border: 1px solid #f7f7f7;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
   color: #222222;
   text-align: left;
   padding: 16px;
 }
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.grid__details {
+  height: 156px;
 }
 
 .title {
