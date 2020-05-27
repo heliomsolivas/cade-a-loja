@@ -1,7 +1,67 @@
 {
   "list": [
     {
-      "name": "Caldinho Paraiso Delivery",
+      "name": "Dona Lola",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "",
+      "category": "Doces",
+      "delivery": true,
+      "phone": null,
+      "thumb": "lalala",
+      "instagram": "https://www.instagram.com/donalola2019/",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Dona Girafa",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "",
+      "category": "Moda",
+      "delivery": true,
+      "phone": "5512982601023",
+      "thumb": "lalala",
+      "instagram": "https://www.instagram.com/donagirafamodas/",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Maricota Cake",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": false,
+      "phone": "5512988491853",
+      "thumb": "lalala",
+      "instagram": "https://www.instagram.com/cakemaricota/",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Império Hamburgueria",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": null,
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Haru",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": false,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Bem Bolado Lanches",
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Jardim Paraíso",
@@ -14,6 +74,30 @@
     },
     {
       "name": "Caldinho Paraiso Delivery",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Anjinho Pizzaria",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Pizzaria",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Pam Doces",
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Jardim Paraíso",
@@ -37,15 +121,15 @@
       "facebook": "lalala"
     },
     {
-      "name": "Caldinho Paraiso Delivery",
+      "name": "Anexo22",
       "city": "Cruzeiro",
       "state": "SP",
-      "address": "Jardim Paraíso",
-      "category": "Restaurantes",
+      "address": "?",
+      "category": "Moda",
       "delivery": true,
-      "phone": "99199-4276",
+      "phone": "",
       "thumb": "lalala",
-      "instagram": "lalal",
+      "instagram": "@anexo22",
       "facebook": "lalala"
     },
     {
@@ -58,6 +142,30 @@
       "phone": "99199-4276",
       "thumb": "lalala",
       "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Hops Milk Shake",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Parmegiana do Chineis",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "?",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "@parmeduchineis",
       "facebook": "lalala"
     }
   ]
