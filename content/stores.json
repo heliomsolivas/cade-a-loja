@@ -1,0 +1,64 @@
+{
+  "list": [
+    {
+      "name": "Caldinho Paraiso Delivery",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Caldinho Paraiso Delivery",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Doces",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Caldinho Paraiso Delivery",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Caldinho Paraiso Delivery",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    },
+    {
+      "name": "Caldinho Paraiso Delivery",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Paraíso",
+      "category": "Restaurantes",
+      "delivery": true,
+      "phone": "99199-4276",
+      "thumb": "lalala",
+      "instagram": "lalal",
+      "facebook": "lalala"
+    }
+  ]
+}
