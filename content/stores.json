@@ -1,18 +1,212 @@
 {
   "list": [
     {
+      "name": "Top Mix Açaí e Shake",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Açai",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "Imporium Mulher",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Moda",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": "imporium_mulhercrz",
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": false,
+        "phone": "5512988707777"
+      }
+    },
+    {
+      "name": "Imporium Make Up",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Maquiagem",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": "imporium_makeup_",
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": false,
+        "phone": "5512988707777"
+      }
+    },
+    {
+      "name": "Shibo - Culinária Japonesa",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Jardim Primavera",
+      "category": "Japonesa",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": "shiboculinariaoriental",
+        "ifood": false,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "Yukiwari Culinária Oriental",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Japonesa",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "Cartola Burguer",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Lanches",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "Fim de Tarde - Hamburgueria",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Centro",
+      "category": "Lanches",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "Robatiny Fast Food",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Lanches",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "MAMIS Burguer",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Lanches",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "King Lanches",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Lanches",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "Armazém Restaurante",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Centro",
+      "category": "Restaurantes",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": true,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
       "name": "Rob's Mania",
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Itagaçaba",
-      "category": "Hamburgueria",
+      "category": "Lanches",
       "delivery": true,
-      "phone": null,
       "thumb": null,
-      "instagram": null,
-      "facebook": null,
-      "ifood": true,
-      "aiqfome": true
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "ifood": true,
+        "aiqfome": true,
+        "phone": null
+      }
+    },
+    {
+      "name": "Morana Cruzeiro",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Jóias",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "phone": "5512991522322",
+        "instagram": "morana_cruzeiro",
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": false
+      }
     },
     {
       "name": "Fashion Sweet",
@@ -21,12 +215,14 @@
       "address": null,
       "category": "Moda",
       "delivery": false,
-      "phone": null,
       "thumb": null,
-      "instagram": "fashion.sweet1",
-      "facebook": null,
-      "ifood": false,
-      "aiqfome": false
+      "social": {
+        "phone": null,
+        "instagram": "fashion.sweet1",
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": false
+      }
     },
     {
       "name": "Delicias Caseiras",
@@ -35,12 +231,14 @@
       "address": null,
       "category": "Pães",
       "delivery": false,
-      "phone": "5512996633540",
       "thumb": null,
-      "instagram": "caseiras.delicia96",
-      "facebook": null,
-      "ifood": false,
-      "aiqfome": false
+      "social": {
+        "phone": "5512996633540",
+        "instagram": "caseiras.delicia96",
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": false
+      }
     },
     {
       "name": "Mundo M",
@@ -49,26 +247,30 @@
       "address": null,
       "category": "Sex Shop",
       "delivery": true,
-      "phone": "5512988566842",
       "thumb": null,
-      "instagram": "mundo_m.miss",
-      "facebook": null,
-      "ifood": false,
-      "aiqfome": false
+      "social": {
+        "phone": "5512988566842",
+        "instagram": "mundo_m.miss",
+        "facebook": null,
+        "ifood": false,
+        "aiqfome": false
+      }
     },
     {
       "name": "Burguerlândia",
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Vila Suely",
-      "category": "Hamburgueria",
+      "category": "Lanches",
       "delivery": true,
-      "phone": null,
       "thumb": null,
-      "instagram": null,
-      "facebook": null,
-      "ifood": true,
-      "aiqfome": true
+      "social": {
+        "phone": null,
+        "instagram": null,
+        "facebook": null,
+        "ifood": true,
+        "aiqfome": true
+      }
     },
     {
       "name": "Parmegiana da Clara",
@@ -77,10 +279,12 @@
       "address": "Vila Washington Beleza",
       "category": "Restaurantes",
       "delivery": true,
-      "phone": null,
-      "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null
+      }
     },
     {
       "name": "Kioske Big Lanche",
@@ -89,10 +293,12 @@
       "address": "Centro",
       "category": "Lanches",
       "delivery": true,
-      "phone": null,
-      "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null
+      }
     },
     {
       "name": "Mixaria Pastelaria",
@@ -112,7 +318,7 @@
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Itagaçaba",
-      "category": "Hamburgueria",
+      "category": "Lanches",
       "delivery": true,
       "phone": null,
       "thumb": null,
@@ -125,7 +331,7 @@
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Jardim América",
-      "category": "Hamburgueria",
+      "category": "Lanches",
       "delivery": true,
       "phone": "5512992552758",
       "thumb": null,
@@ -214,10 +420,13 @@
       "address": "Vila Ana Rosa Novaes",
       "category": "Açai",
       "delivery": true,
-      "phone": null,
-      "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null,
+        "aiqfome": true
+      }
     },
     {
       "name": "Flávia Bitteti Açai Delivery",
@@ -226,10 +435,13 @@
       "address": "Vila Suely",
       "category": "Açai",
       "delivery": true,
-      "phone": null,
-      "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null,
+        "aiqfome": true
+      }
     },
     {
       "name": "Sol e Neve Sorveteria",
@@ -256,16 +468,48 @@
       "facebook": null
     },
     {
+      "name": "Inovapet Cruzeiro",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Pet",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "phone": null,
+        "instagram": null,
+        "facebook": null,
+        "ifood": true
+      }
+    },
+    {
+      "name": "Ipiranga Pet",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Pet",
+      "delivery": true,
+      "thumb": null,
+      "social": {
+        "phone": null,
+        "instagram": null,
+        "facebook": null,
+        "ifood": true
+      }
+    },
+    {
       "name": "Pizzaria Prediletta",
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Vila Canevari",
       "category": "Pizzaria",
       "delivery": true,
-      "phone": null,
       "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "phone": null,
+        "instagram": null,
+        "facebook": null
+      }
     },
     {
       "name": "Pizzaria Ferrara",
@@ -356,7 +600,7 @@
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Jardim Primavera",
-      "category": "Hamburgueria",
+      "category": "Lanches",
       "delivery": true,
       "phone": null,
       "thumb": null,
@@ -369,24 +613,89 @@
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Jardim Paraíso",
-      "category": "Restaurantes",
+      "category": "Japonesa",
       "delivery": false,
-      "phone": "99199-4276",
       "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "phone": "5512991994276",
+        "instagram": null,
+        "facebook": null,
+        "aiqfome": true
+      }
+    },
+    {
+      "name": "No Capricho",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Lanches",
+      "delivery": true,
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null,
+        "aiqfome": true
+      }
+    },
+    {
+      "name": "Bom Gosto Lanchonete",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": "Vila Romana",
+      "category": "Lanches",
+      "delivery": true,
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null,
+        "aiqfome": true
+      }
+    },
+    {
+      "name": "10zão",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Lanches",
+      "delivery": true,
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null,
+        "aiqfome": true
+      }
+    },
+    {
+      "name": "Silvia Lanches",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Lanches",
+      "delivery": true,
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null,
+        "aiqfome": true
+      }
     },
     {
       "name": "Bem Bolado Lanches",
       "city": "Cruzeiro",
       "state": "SP",
       "address": "Jardim Paraíso",
-      "category": "Restaurantes",
+      "category": "Lanches",
       "delivery": true,
-      "phone": "99199-4276",
-      "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "phone": "12991994276",
+        "thumb": null,
+        "instagram": null,
+        "facebook": null
+      }
     },
     {
       "name": "Caldinho Paraiso Delivery",
@@ -419,10 +728,12 @@
       "address": "Jardim Paraíso",
       "category": "Doces",
       "delivery": true,
-      "phone": "99199-4276",
       "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "phone": "1255991994276",
+        "instagram": null,
+        "facebook": null
+      }
     },
     {
       "name": "Caldinho Paraiso Delivery",
@@ -440,7 +751,7 @@
       "name": "Anexo22",
       "city": "Cruzeiro",
       "state": "SP",
-      "address": "?",
+      "address": null,
       "category": "Moda",
       "delivery": true,
       "phone": "",
@@ -467,10 +778,27 @@
       "address": "Jardim Paraíso",
       "category": "Restaurantes",
       "delivery": true,
-      "phone": "99199-4276",
       "thumb": null,
-      "instagram": null,
-      "facebook": null
+      "social": {
+        "instagram": null,
+        "facebook": null,
+        "phone": "5512991994276"
+      }
+    },
+    {
+      "name": "Hops Hamburgueria",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "address": null,
+      "category": "Lanches",
+      "delivery": true,
+      "social": {
+        "phone": null,
+        "thumb": null,
+        "instagram": null,
+        "facebook": null,
+        "aiqfome": true
+      }
     },
     {
       "name": "Parmegiana do Chineis",
@@ -479,10 +807,12 @@
       "address": "?",
       "category": "Restaurantes",
       "delivery": true,
-      "phone": "99199-4276",
       "thumb": null,
-      "instagram": "parmeduchineis",
-      "facebook": null
+      "social": {
+        "instagram": "parmeduchineis",
+        "facebook": null,
+        "phone": "99199-4276"
+      }
     }
   ]
 }

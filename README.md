@@ -11,9 +11,11 @@
 # TODO
 
 - Estruturar imagens das lojas
+- Criar Filtro personalizado (Ordem alfabética, categoria)
+- Adicionar Localização para mostrar lojas mais próximas
 - Cadastrar mais lojas no JSON referente as lojas
 - Estruturar componentes do projeto
-- Criar cabeçalho como Busca
+- ~~Criar cabeçalho com Busca~~
 - Criar busca (fuzzy search ou utilizar as querys do Nuxt)
 - Criar view de detalhes das lojas
 - Criar footer
